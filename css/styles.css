@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* end-of-css-reset*/
+
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+header {
+
+    height: 10vh;
+    background-color: rgb(79, 81, 100);
+    display: flex;
+    width: 100%;
+}
+
+h3 {
+    font-family: bold;
+    padding: 0 100px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255)
+}
+
+ul {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: regular;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+header ul li a:hover {
+    color: rgb(26, 188, 156);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* end-of-header */
+
+/* banner */
+.hero {
+    height: 90vh;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero #banner-img {
+    margin-top: 90px;
+    width: 20%;
+}
+
+.hero-inner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 15px;
+    font-family: bold;
+}
+
+.hero-inner img {
+    width: 15%;
+    margin-top: 8px;
+}
+
+.hero-inner p {
+    font-family: regular;
+    font-size: 20px;
+}
+
+/* end-of-banner */
+
+/* portfolio */
+#portfolio {
+    height: 100vh;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-family: bold;
+    text-align: center;
+    color: rgb(44, 47, 78);
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+#portfolio #two {
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+#portfolio .content {
+    display: flex;
+    width: 60%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+#portfolio .content #content-inner {
+    width: calc(100/3);
+    padding: 0 5px;
+
+}
+
+#portfolio .content #content-inner img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* end-of portfolio */
+
+
+/* about */
+#about {
+    height: 80vh;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#about h2 {
+    font-size: 30px;
+    font-family: bold;
+    padding-top: 50px;
+}
+
+#about #one {
+    margin-top: 10px;
+    width: 20%;
+}
+
+#about .text {
+    font-family: regular;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about .text .text-inner {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+#about a {
+    font-family: regular;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+
+    border-radius: 5px;
+
+}
+
+/* end-of-about */
+
+/* contact */
+#contact {
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 30px;
+    font-family: bold;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(44, 47, 78);
+}
+
+#contact #blue-star {
+    width: 20%;
+    margin-top: 10px;
+
+}
+
+#contact .contact-inner input {
+    font-family: regular;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 30px;
+    border-color: rgba(26, 34, 78, 0.139);
+
+}
+
+#contact button {
+    font-family: regular;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(26, 188, 156);
+    border-radius: 7px;
+    font-size: 15px;
+    float: left;
+    border: 1px;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-left: 340px;
+    color: rgb(255, 255, 255);
+
+}
+
+*:focus {
+    outline: 0;
+}
+
+/* /* end-of-contact **/
+
+/* footer */
+#footer {
+    height: 20vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(32, 32, 36);
+}
+
+#footer-inner {
+    margin-right: 900px;
+    font-family: regular;
+}
+
+#footer-inner-1 {
+    margin-right: -20px;
+    margin-top: -80px;
+}
+
+#footer-inner-2 h3{
+    margin-left: 580px;
+    margin-top: -80px;
+    width: 60%;
+}
+
+#footer-inner-2 p {
+    font-family: regular;
+    font-size: 15px;
+    width: 20%;
+    margin-left: 950px;
+    
+}
+ 
+
+#facebook { 
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#twitter {
+    width: 30px;
+    height: 30px;
+
+}
+
+#linkedin {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+#global {
+    width: 30px;
+    height: 30px;
+   border: 5px;
+   border-radius: 100%;
+}
+h4 {
+    font-family: regular;
+    text-align: center;
+    color: white;
+    background-color:rgb(14, 15, 19);
+    height: 5vh;
+    font-size: 10px;
+    padding-top: 20px;
+    margin-right: -20px;
+}
+
+#footer-inner-2 a{
+    color:rgb(26, 188, 156);
+}
+/* end-of-footer */
